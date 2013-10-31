@@ -1,0 +1,536 @@
+﻿$axure.loadCurrentPage({
+  "url":"page_2.html",
+  "generationDate":new Date(1383255098759.72),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"b80fbb1065f9487ba762fad8981c4b50",
+    "type":"Axure:Page",
+    "name":"Page 2",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+      "a":{
+},
+      "b":{
+},
+      "c":{
+}},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"45361db22ed64d299c143401624000b1",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":768,
+              "height":1024},
+            "borderWidth":"-1"},
+          "adaptiveStyles":{
+            "a":{
+},
+            "b":{
+},
+            "c":{
+}},
+          "objects":[{
+              "id":"f2cc370422ec4c46bc9818c677f5f004",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":768,
+                  "height":1024},
+                "borderWidth":"-1"},
+              "adaptiveStyles":{
+                "a":{
+},
+                "b":{
+},
+                "c":{
+}}}],
+          "images":{
+            "normal~":"images/page_2/u0.png"}},
+{
+          "id":"c07a490f7e1e4bb98349cd2cce62bcb3",
+          "label":"HelpButton",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":670,
+              "y":452.230743408203},
+            "size":{
+              "width":98,
+              "height":77}},
+          "adaptiveStyles":{
+            "a":{
+},
+            "b":{
+},
+            "c":{
+}},
+          "scrollbars":"none",
+          "fitToContent":false,
+          "propagate":false,
+          "diagrams":[{
+              "id":"34c41051c2694ef6a5688de84a7de2ec",
+              "label":"State1",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"589ebe4daa58418da66fd98efa4fef97",
+                  "label":"",
+                  "parentDynamicPanel":"c07a490f7e1e4bb98349cd2cce62bcb3",
+                  "type":"imageMapRegion",
+                  "styleType":"imageMapRegion",
+                  "visible":true,
+                  "style":{
+                    "size":{
+                      "width":94,
+                      "height":76}},
+                  "adaptiveStyles":{
+                    "a":{
+},
+                    "b":{
+},
+                    "c":{
+}},
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"fadeWidget",
+                              "description":"Show ",
+                              "objectsToFades":[]}]}]}},
+                  "tabbable":true}]}]},
+{
+          "id":"f2d499c3fd9a4b31acaf9c8ba6a07df7",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":0,
+              "y":16},
+            "size":{
+              "width":66,
+              "height":52},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0x797979},
+            "cornerRadiusTopLeft":"5"},
+          "adaptiveStyles":{
+            "a":{
+},
+            "b":{
+},
+            "c":{
+}},
+          "objects":[{
+              "id":"0f9660a6f52d464f858b69b16c73da98",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "location":{
+                  "x":0,
+                  "y":16},
+                "size":{
+                  "width":66,
+                  "height":52},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0x797979},
+                "cornerRadiusTopLeft":"5"},
+              "adaptiveStyles":{
+                "a":{
+},
+                "b":{
+},
+                "c":{
+}}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open Page 1 in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "url":"page_1.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"62e1af3ea72540b69588438933b3c28a",
+          "label":"Overlay1",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
+          "visible":false,
+          "style":{
+            "size":{
+              "width":766,
+              "height":1024},
+            "visible":false},
+          "adaptiveStyles":{
+            "a":{
+},
+            "b":{
+},
+            "c":{
+}},
+          "scrollbars":"none",
+          "fitToContent":false,
+          "propagate":false,
+          "diagrams":[{
+              "id":"3155c43504214b89ae73f78c37a12162",
+              "label":"State1",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"ec22bca177e24a3485d9a568c311139b",
+                  "label":"",
+                  "parentDynamicPanel":"62e1af3ea72540b69588438933b3c28a",
+                  "type":"imageMapRegion",
+                  "styleType":"imageMapRegion",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":640,
+                      "y":84},
+                    "size":{
+                      "width":66,
+                      "height":62}},
+                  "adaptiveStyles":{
+                    "a":{
+},
+                    "b":{
+},
+                    "c":{
+}},
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"fadeWidget",
+                              "description":"Hide Overlay1",
+                              "objectsToFades":[{
+                                  "objectPath":["62e1af3ea72540b69588438933b3c28a"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}}]}]}]}},
+                  "tabbable":true},
+{
+                  "id":"65470b16acc44c52b211cff38ff09e11",
+                  "label":"",
+                  "parentDynamicPanel":"62e1af3ea72540b69588438933b3c28a",
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "fill":{
+                      "fillType":"solid",
+                      "color":0xFFFFFF},
+                    "location":{
+                      "x":640,
+                      "y":89.9999923706055},
+                    "size":{
+                      "width":63,
+                      "height":56},
+                    "borderFill":{
+                      "fillType":"solid",
+                      "color":0x797979}},
+                  "adaptiveStyles":{
+                    "a":{
+},
+                    "b":{
+},
+                    "c":{
+}},
+                  "objects":[{
+                      "id":"bb9ae222c4924adbb598ae6e8abf27d8",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"62e1af3ea72540b69588438933b3c28a",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFFFFFF},
+                        "location":{
+                          "x":640,
+                          "y":89.9999923706055},
+                        "size":{
+                          "width":63,
+                          "height":56},
+                        "borderFill":{
+                          "fillType":"solid",
+                          "color":0x797979}},
+                      "adaptiveStyles":{
+                        "a":{
+},
+                        "b":{
+},
+                        "c":{
+}}}],
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"linkWindow",
+                              "description":"Open Page 2 in Current Window",
+                              "target":{
+                                "targetType":"page",
+                                "url":"page_2.html",
+                                "includeVariables":true},
+                              "linkType":"current"}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"resources/images/transparent.gif"}},
+{
+                  "id":"bdfdf04faf3d4668afb9351a96c1c840",
+                  "label":"",
+                  "parentDynamicPanel":"62e1af3ea72540b69588438933b3c28a",
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "fill":{
+                      "fillType":"solid",
+                      "color":0x19FFFFFF},
+                    "size":{
+                      "width":766,
+                      "height":1022},
+                    "borderFill":{
+                      "fillType":"solid",
+                      "color":0x3D797979}},
+                  "adaptiveStyles":{
+                    "a":{
+},
+                    "b":{
+},
+                    "c":{
+}},
+                  "objects":[{
+                      "id":"f078e136633a47ed90f498555d7ae2bb",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"62e1af3ea72540b69588438933b3c28a",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0x19FFFFFF},
+                        "size":{
+                          "width":766,
+                          "height":1022},
+                        "borderFill":{
+                          "fillType":"solid",
+                          "color":0x3D797979}},
+                      "adaptiveStyles":{
+                        "a":{
+},
+                        "b":{
+},
+                        "c":{
+}}}],
+                  "images":{
+                    "normal~":"images/page_2/u10.png"}},
+{
+                  "id":"a295fa9331fb4da09b8309c5c11a3b0d",
+                  "label":"",
+                  "parentDynamicPanel":"62e1af3ea72540b69588438933b3c28a",
+                  "type":"imageBox",
+                  "styleType":"imageBox",
+                  "visible":true,
+                  "style":{
+                    "size":{
+                      "width":766,
+                      "height":1022},
+                    "borderWidth":"-1"},
+                  "adaptiveStyles":{
+                    "a":{
+},
+                    "b":{
+},
+                    "c":{
+}},
+                  "objects":[{
+                      "id":"850bb4dbc1f14499a9e099e0ee696442",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"62e1af3ea72540b69588438933b3c28a",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "size":{
+                          "width":766,
+                          "height":1022},
+                        "borderWidth":"-1"},
+                      "adaptiveStyles":{
+                        "a":{
+},
+                        "b":{
+},
+                        "c":{
+}}}],
+                  "images":{
+                    "normal~":"images/page_2/u12.png"}},
+{
+                  "id":"1edc293e3f434ded86f3c6728dcd1708",
+                  "label":"",
+                  "parentDynamicPanel":"62e1af3ea72540b69588438933b3c28a",
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "fill":{
+                      "fillType":"solid",
+                      "color":0xFFFFFF},
+                    "location":{
+                      "x":640,
+                      "y":102},
+                    "size":{
+                      "width":66,
+                      "height":44},
+                    "borderFill":{
+                      "fillType":"solid",
+                      "color":0x797979}},
+                  "adaptiveStyles":{
+                    "a":{
+},
+                    "b":{
+},
+                    "c":{
+}},
+                  "objects":[{
+                      "id":"ac91e8c121fb4f01b3da6de63c267acd",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"62e1af3ea72540b69588438933b3c28a",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFFFFFF},
+                        "location":{
+                          "x":640,
+                          "y":102},
+                        "size":{
+                          "width":66,
+                          "height":44},
+                        "borderFill":{
+                          "fillType":"solid",
+                          "color":0x797979}},
+                      "adaptiveStyles":{
+                        "a":{
+},
+                        "b":{
+},
+                        "c":{
+}}}],
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"linkWindow",
+                              "description":"Open Page 2 in Current Window",
+                              "target":{
+                                "targetType":"page",
+                                "url":"page_2.html",
+                                "includeVariables":true},
+                              "linkType":"current"}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"resources/images/transparent.gif"}}]}]}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "45361db22ed64d299c143401624000b1":{
+      "scriptId":"u0"},
+    "f2cc370422ec4c46bc9818c677f5f004":{
+      "scriptId":"u1"},
+    "c07a490f7e1e4bb98349cd2cce62bcb3":{
+      "scriptId":"u2"},
+    "589ebe4daa58418da66fd98efa4fef97":{
+      "scriptId":"u3"},
+    "f2d499c3fd9a4b31acaf9c8ba6a07df7":{
+      "scriptId":"u4"},
+    "0f9660a6f52d464f858b69b16c73da98":{
+      "scriptId":"u5"},
+    "62e1af3ea72540b69588438933b3c28a":{
+      "scriptId":"u6"},
+    "ec22bca177e24a3485d9a568c311139b":{
+      "scriptId":"u7"},
+    "65470b16acc44c52b211cff38ff09e11":{
+      "scriptId":"u8"},
+    "bb9ae222c4924adbb598ae6e8abf27d8":{
+      "scriptId":"u9"},
+    "bdfdf04faf3d4668afb9351a96c1c840":{
+      "scriptId":"u10"},
+    "f078e136633a47ed90f498555d7ae2bb":{
+      "scriptId":"u11"},
+    "a295fa9331fb4da09b8309c5c11a3b0d":{
+      "scriptId":"u12"},
+    "850bb4dbc1f14499a9e099e0ee696442":{
+      "scriptId":"u13"},
+    "1edc293e3f434ded86f3c6728dcd1708":{
+      "scriptId":"u14"},
+    "ac91e8c121fb4f01b3da6de63c267acd":{
+      "scriptId":"u15"}}});
